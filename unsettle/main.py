@@ -11,8 +11,8 @@ class JewelryDesigner:
     def __init__(self, root):
         self.root = root
         self.root.title("珠宝设计游戏")
-        self.sender_email = "2909011953@qq.com"  # 发送邮箱
-        self.receiver_email = "redbeansn@163.com"  # 接收邮箱
+        self.sender_email = "***********"  # 发送邮箱
+        self.receiver_email = "***********"  # 接收邮箱
         
 
         # 初始化素材路径
@@ -129,7 +129,7 @@ class JewelryDesigner:
             smtp_server = "smtp.qq.com"  # QQ邮箱服务器
             smtp_port = 587  # 安全连接端口
             sender = self.sender_email  # 发件人邮箱
-            password = "xxmnintctxlddcij"    # 邮箱授权码
+            password = "***********"    # 邮箱授权码
 
             # 创建邮件内容
             message = MIMEText(order_info, 'plain', 'utf-8')
